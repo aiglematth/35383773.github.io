@@ -1,4 +1,4 @@
-# Bienvenu sur le blog de la team 35383773 !
+# Bienvenue sur le blog de la team 35383773 !
 ## Ici tu trouveras des writeups de CTF et des articles sur des notions d'informatique en général.
 ### Catégories :
 - [Web](/web/index.md)
