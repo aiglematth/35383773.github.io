@@ -1,7 +1,7 @@
 # Bienvenue sur le blog de la team 35383773 !
 ## Vous trouverez ici des writeups de CTF et des articles sur des notions d'informatique en général.
 ### Catégories :
-- [Web](/web/index.md)
+- [Web](/web/index.html)
 - [Forensic](/forensic/index.md)
 - [Stegano](/stegano/index.md)
 - [Misc](/misc/index.md)
