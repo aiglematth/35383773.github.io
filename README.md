@@ -13,4 +13,4 @@
 
 ### CTF :
 - [HacktivitiConCtf 2020](/hacktivityconctf2020/index.md)
-- [Préparation ENSIBS CTF 2020](/CTF/ENSIBS/Challenges%20Hebdo/index.md)
+- [Préparation ENSIBS CTF 2020](/ensibsPrepa2020/index.md)
