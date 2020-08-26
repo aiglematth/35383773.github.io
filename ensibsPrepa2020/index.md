@@ -2,3 +2,4 @@
 
 ## Articles :
 - [Fais gaffe à ton historique ! Par Onid1](challHebdo/firefox_onid1/firefox_onid1.md)
+- [Attention à ton typage ! Par Aiglematth](shortInt/index.md)
