@@ -3,7 +3,7 @@ Ce write-up concerne le challenge du 05/08/2020 obtenu à l'adresse : [https://t
 
 ![](img/twitter.png)
 ## Ce qu'on a
-Pour ce challenge, on nous donne le code source du service qui tourne, ainsi que l'addresse:port auquel le joindre.
+Pour ce challenge, on nous donne le code source du service qui tourne, ainsi que l'addresse:port permettant de le joindre.
 ## Analyse du code source
 ```
 #include <stdio.h>
