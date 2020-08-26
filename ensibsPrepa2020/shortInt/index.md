@@ -48,11 +48,11 @@ int main(int argc, char **argv) {
 	return 0;
 }
 ```
-Rapidement, on comprend que get_the_moula est la fonction d'affichage du flag, check une fonction qui retourne vrai si le short moulant est plus petit ou égal à 0 et main la fonction principale.
-Main demande un entier à l'utilisateur. Celui-ci doit être strictement supérieur à 0.
-Après cela, si check retourne vrai, on obtient le flag.
+Rapidement, on comprend que *get_the_moula* est la fonction d'affichage du flag, *check* une fonction qui retourne vrai si le short moulant est plus petit ou égal à 0 et *main* la fonction principale.
+*Main* demande un entier à l'utilisateur. Celui-ci doit être strictement supérieur à 0.
+Après cela, si *check* retourne vrai, on obtient le flag.
 ## La faille
-Le soucis de ce problème réside dans le typage : on demande un entier à l'utilisateur (codé sur 4 octets, et signé) et la fonction check prend un short (codé sur 2 octets et signé). Le programme va donc uniquement regarder les 2 octets de poids faible et vérifier s'ils correspondent à un nombre négatif. L'astuce va donc être de passer un entier positif, dont les 2 octets de poids faible correspondent à un short négatif. On va faire la conversion de -1 à la main, si vous ne savez pas comment passer d'un décimal à un binaire signé, vous pourrez comprendre [ici](http://www.courstechinfo.be/MathInfo/NbrSignes.html):
+Le soucis de ce problème réside dans le typage : on demande un entier à l'utilisateur (codé sur 4 octets, et signé) et la fonction *check* prend un short (codé sur 2 octets et signé). Le programme va donc uniquement regarder les 2 octets de poids faible et vérifier s'ils correspondent à un nombre négatif. L'astuce va donc être de passer un entier positif, dont les 2 octets de poids faible correspondent à un short négatif. On va faire la conversion de -1 à la main, si vous ne savez pas comment passer d'un décimal à un binaire signé, vous pourrez comprendre [ici](http://www.courstechinfo.be/MathInfo/NbrSignes.html):
 ```
 1 = 0b00000000 00000001
 INVERSION :
