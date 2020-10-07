@@ -11,7 +11,7 @@ Chacune est intimement reliée aux autres
 Je pense que vous l'avez compris, on est parti pour une (minuscule) introduction à l'exploitation de binaire. Donc, comme aujourd'hui c'est de l'initiation, on va pas se gêner pour regarder le code du programme.
 
 ## Quel programmme ?
-```lang-c
+```c
 #include <stdio.h>
 
 void vuln(void)
